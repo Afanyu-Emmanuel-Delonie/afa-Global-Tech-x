@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> afa Global tech videos page</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" type="delta-icon" href="img/r.png" >
+    <!--link to box icons-->
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=19cf2b5055653' async='true'></script>
+
+ <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    
+<header class="header">
+    <section class="flex">
+        <h2 class="logo"><a href="home.html" > afa-Global Tech</a></h2>
+        <form action="" method="post" class="search-form" id="search-form">
+            <input type="text" name="search-box" placeholder="search courses ......" required maxlength="150" >
+            <button type="submit" class="bx bx-search"></button>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="bx bx-search"></div>
+             <div id="menu-btn" onclick="sideMenu()" class="bx bx-menu"></div>
+            <div id="profile-btn" class="bx bxs-user"></div>
+            <div id="toggle-btn" onclick="myFunction()" class="bx bxs-adjust-alt"></div>
+            
+        </div>
+        
+        <div class="profile active-c" id="profile">
+            <img src="img/profile.jpeg" alt="" width="200px" height="200px">
+            <h3>Afanyu Emmanuel</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn"> View profile</a>
+            <div class="flex-btn">
+                <a href="login.html" class="option-btn">LogIn</a>
+                <a href="register.html" class="option-btn">Register</a>
+            </div>
+        </div>
+
+    </section>
+
+</header>
+
+<!-- end of the head section -->
+<!-- start of the side-bar section -->
+
+<div class="side-bar" id="side-bar">
+    <div class="close-menu">
+        <i class="bx bx-x"></i>
+    </div>
+    <div class="profile1" id="profile">
+            <img src="img/profile.jpeg" alt="" width="200px" height="200px">
+            <h3>Afanyu Emmanuel</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn"> View profile</a>
+    </div>
+
+    <div class="nav-bar">
+        <a href="home.html"><i class="bx bxs-home"><span>Home</span></i></a>
+        <a href="about.html"><i class="bx bx-question-mark"><span>About Us</span></i></a>
+        <a href="courses.html"><i class="bx bxs-graduation"><span>Courses</span></i></a>
+        <a href="teachers.html"><i class="bx bx-chalkboard"><span>Collaborators</span></i></a>
+        <a href="contact.html"><i class="bx bx-headphone"><span>Contact Us</span></i></a>
+    </div>
+</div>
+
+
+<!-- end of the side-bar section -->
+
+
+<!-- start of video section -->
+<section class="watch-video">
+
+    <div class="video-details">
+        <video src="img//vid-1.mp4" class="video" poster="img/post-1-1.png"
+        controls autoplay></video>
+        <h3 class="title">Complete HTML Tutorial (part 01)</h3>
+        <div class="info">
+            <p><i class="bx bx-calendar"><span>23-10-2023</span></i></p>
+             <p><i class="bx bx-heart"><span>34 likes</span></i></p>
+        </div>
+        <div class="tutor">
+            <img src="img/pic-2.jpg" alt="">
+            <div>
+                <h3>John Paul</h3>
+                <span>Developer</span>
+            </div>
+        </div>
+        <form action="" method="post" class="flex">
+            <a href="playlist.html" class="inline-btn1">view playlist</a>
+            <button type="submit"><i class="bx bx-heart"></i><span>like</span></button>
+        </form>
+
+        <div class="description">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus 
+                voluptatibus commodi facilis unde nobis quidem doloremque dolor aliquid
+                 illo pariatur?</p>
+                 <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Totam, adipisci porro sint perferendis asperiores fugiat 
+                     nostrum et architecto provident.
+                 </p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- end of video section section -->
+<!-- start of comment section-->
+<section class="comments">
+    <form action="" method="post" class="add-comments">
+        <h1 class="heading"> Add Comment</h1>
+        <textarea name="comment-box" required placeholder="what's on your mind ...."  maxlength="600" cols="30" rows="10"></textarea>
+        <input type="submit" value="add comment" name="add_comment" class="inline-btn2">
+        <h3 > 5 comments</h3>
+    </form>
+    
+
+    <!--show comments-->
+    <div class="show-comments">
+        <div class="box">
+            <div class="user">
+                <img src="img/pic-1.jpg" alt="">
+                 <h3>John Paul</h3>
+                <span>23-12-2022</span>
+            </div>
+        </div>
+        <p class="main_comment">
+            this is a comment from afanyu
+            <form action=""method=" post" class="flex-btn">
+                <button class="inline-option-btn1" type="submit" name="Edit_comment">Edit Comment</button>
+                 <button class="inline-delete-btn1" type="submit" name="delete_comment">Delete comment</button>
+            </form>
+        </p>
+         <div class="user">
+                <img src="img/pic-2.jpg" alt="">
+                 <h3>John Paul</h3>
+                     <div class="comments">
+                          <p>his is a comment from afanyu</p>
+                         <span>23-12-2022</span>
+               
+                     </div>
+            </div>
+             <div class="user">
+                <img src="img/pic-3.jpg" alt="">
+                 <h3>John Paul</h3>
+                 <div class="comments">
+                          <p>his is a comment from afanyu</p>
+                         <span>23-12-2022</span>
+               
+                     </div>
+            </div>
+             <div class="user">
+                <img src="img/pic-4.jpg" alt="">
+                 <h3>John Paul</h3>
+                 <div class="comments">
+                          <p>his is a comment from afanyu</p>
+                         <span>23-12-2022</span>
+               
+                     </div>
+          
+            </div>
+             <div class="user">
+                <img src="img/pic-5.jpg" alt="">
+                 <h3>John Paul</h3>
+                 <div class="comments">
+                          <p>his is a comment from afanyu</p>
+                         <span>23-12-2022</span>
+               
+                     </div>
+
+            </div>
+    </div>
+    
+</section>
+
+
+
+
+<!-- start of the footer-->
+
+<footer class="footer">
+
+    &copy; Copyright @ 2024 created by <span>Mr. Afanyu Emmanuel </span> | all copies reserved
+</footer>
+
+
+<!-- start of the footer-->
+
+
+
+    <script src="home.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> afa Global tech contact page</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" type="delta-icon" href="img/r.png" >
+    <!--link to box icons-->
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  
+
+ <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    
+<header class="header">
+    <section class="flex">
+        <h2 class="logo"><a href="home.html" > afa-Global Tech</a></h2>
+        <form action="" method="post" class="search-form" id="search-form">
+            <input type="text" name="search-box" placeholder="search courses ......" required maxlength="150" >
+            <button type="submit" class="bx bx-search"></button>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="bx bx-search"></div>
+             <div id="menu-btn" onclick="sideMenu()" class="bx bx-menu"></div>
+            <div id="profile-btn" class="bx bxs-user"></div>
+            <div id="toggle-btn"  onclick="myFunction()" class="bx bxs-adjust-alt"></div>
+            
+        </div>
+        
+        <div class="profile active-c" id="profile">
+            <img src="img/profile.jpeg" alt="" width="200px" height="200px">
+            <h3>Afanyu Emmanuel</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn"> View profile</a>
+            <div class="flex-btn">
+                <a href="login.html" class="option-btn">LogIn</a>
+                <a href="register.html" class="option-btn">Register</a>
+            </div>
+        </div>
+
+    </section>
+
+</header>
+
+<!-- end of the head section -->
+<!-- start of the side-bar section -->
+
+<div class="side-bar" id="side-bar">
+    <div class="close-menu">
+        <i class="bx bx-x"></i>
+    </div>
+    <div class="profile1" id="profile">
+            <img src="img/profile.jpeg" alt="" width="200px" height="200px">
+            <h3>Afanyu Emmanuel</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn"> View profile</a>
+    </div>
+
+    <div class="nav-bar">
+        <a href="home.html"><i class="bx bxs-home"><span>Home</span></i></a>
+        <a href="about.html"><i class="bx bx-question-mark"><span>About Us</span></i></a>
+        <a href="courses.html"><i class="bx bxs-graduation"><span>Courses</span></i></a>
+        <a href="teachers.html"><i class="bx bx-chalkboard"><span>Collaborators</span></i></a>
+        <a href="contact.html"><i class="bx bx-headphone"></i><span>Contact Us</span></i></a>
+    </div>
+</div>
+
+
+<!-- end of the side-bar section -->
+<!--start of the contact section-->
+<section class="contacts">
+<div class="row">
+    <div class="image">
+        <img src="img/contact-img.svg" alt="">
+    </div>
+
+<form action="" method="post">
+    <h3 class="heading">Get in touch</h3>
+    <input type="text" name="name" maxlength="100" required placeholder="Enter your name" class="box">
+     <input type="email" name="email" maxlength="100" required placeholder="Enter your email" class="box">
+      <input type="text" name="number" maxlength="100" required placeholder="Enter your phone number" class="box">
+      <textarea name="msg" id="massage" class="box" required cols="30" rows="10"></textarea>
+      <input type="submit" value="send a massage" class="inline-btn2" name="submit">
+</form>
+
+</div>
+
+<div class="box-container">
+    <div class="box">
+        <i class="bx bx-phone-incoming"></i>
+        <h5>Call Us</h5>
+        <a href="tel:123456789"> 123-456-789</a>
+    </div>
+    <div class="box">
+        <i class="bx bx-envelope"></i>
+        <h5>Call Us</h5>
+        <a href="mail to:afaglobaltech@gmail.com"> afaglobaltech@gmail.com</a>
+        
+    </div>
+    <div class="box">
+        <i class="bx bx-map"></i>
+        <h5>Address</h5>
+        <a href="#address"> Mile-2 Bamenda</a>
+    </div>
+</div>
+
+</section>
+
+
+
+<!-- start of the footer-->
+
+<footer class="footer">
+
+    &copy; Copyright @ 2024 created by <span>Mr. Afanyu Emmanuel </span> | all copies reserved
+</footer>
+
+
+<!-- start of the footer-->
+
+
+
+    <script src="home.js"></script>
+</body>
+</html>
